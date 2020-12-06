@@ -44,7 +44,7 @@ keys are: recentWordsCount, recentEventsCount respectively.
 1. Clone the repository:
 
     ```sh
-    $ git clone //todo
+    $ git clone https://github.com/Itayventura/StreamProcessor.git
     ```
    
 2. Build and run tests:
