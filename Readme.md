@@ -27,7 +27,20 @@ value:
 {key: event_type, value: number of times it appeared since app started} 
 
 ```
-{"wordsCount":{"lorem":82,"dolor":70,"amet":53,"ipsum":68,"sit":71},"eventsCount":{"bar":127,"foo":112,"baz":105}}
+{
+  "wordsCount": {
+    "lorem": 82,
+    "dolor": 70,
+    "amet": 53,
+    "ipsum": 68,
+    "sit": 71
+  },
+  "eventsCount": {
+    "bar": 127,
+    "foo": 112,
+    "baz": 105
+  }
+}
 ```
 ##### recent
 GET localhost:8080/recent
@@ -37,7 +50,20 @@ stats of last 60 seconds.
 same structure as above.
 keys are: recentWordsCount, recentEventsCount respectively.
 ```
-{"recentEventsCount":{"bar":14,"foo":16,"baz":13},"recentWordsCount":{"lorem":11,"dolor":11,"amet":6,"ipsum":3,"sit":12}}
+{
+  "recentEventsCount": {
+    "bar": 14,
+    "foo": 16,
+    "baz": 13
+  },
+  "recentWordsCount": {
+    "lorem": 11,
+    "dolor": 11,
+    "amet": 6,
+    "ipsum": 3,
+    "sit": 12
+  }
+}
 ```
 
 ## Installation
@@ -61,7 +87,3 @@ keys are: recentWordsCount, recentEventsCount respectively.
     mvn compile exec:java -Dexec.mainClass="app.App"
     ```
 
-4. stop app (from terminal):
-    ```sh
-    pressing ctrl+c, then Y and Enter
-    ```
