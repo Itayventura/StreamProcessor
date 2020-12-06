@@ -1,5 +1,7 @@
 # StreamProcessor
-
+Implemented a Non Blocking Producer/Consumer stream processing service.
+the app is provided with a blackbox executable that spits out an infinite stream of lines of event data encoded in JSON.
+It consumes the output of the generator, gathers some stats and exposes these stats in an HTTP interface
 ## Prerequisites
  - [x] Windows
  
