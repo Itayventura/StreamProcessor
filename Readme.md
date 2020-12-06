@@ -7,7 +7,7 @@
 
  - [x] maven (+JAVA_HOME set to jdk)
  
-## HTTP Interface
+## Rest APIs
 
 ##### get events count and words count request
 GET localhost:8080/stat
