@@ -1,8 +1,0 @@
-handlers\EventsStatsHandler.class
-producerConsumer\Consumer.class
-app\App.class
-controller\StatisticsServlet.class
-handlers\EventsHandler.class
-handlers\QueueHandler.class
-controller\RecentStatisticsServlet.class
-producerConsumer\Producer.class
