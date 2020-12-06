@@ -9,22 +9,10 @@
  
 ## HTTP Interface
 
-##### stat
+##### get events count and words count request
 GET localhost:8080/stat
 
 RESPONSE:
-String of JSONObject
-
-key: wordsCount
-
-value: {key: word,
-    value: number of times it appeared since app started}
-    
-key: eventsCount
-
-value: 
-
-{key: event_type, value: number of times it appeared since app started} 
 
 ```
 {
@@ -42,13 +30,10 @@ value:
   }
 }
 ```
-##### recent
+##### get events count and words count of last 60 seconds request
 GET localhost:8080/recent
 
 RESPONSE:
-stats of last 60 seconds.
-same structure as above.
-keys are: recentWordsCount, recentEventsCount respectively.
 ```
 {
   "recentEventsCount": {
